@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'cairoFont';
+    src: url(Cairo-Regular.ttf);
+}
+body{
+    font-family: 'cairoFont',Arial,sans-serif ;
+    background-color: #fafafa;
+}
+a{
+    color: black;
+    text-decoration: none !important;
+   /* text-align: center;*/
+}
+button{
+    background-color: transparent !important;
+    color: #2962ff !important;
+    border-color: #2962ff !important;
+}
+button:hover{
+    color:white !important ;
+    background-color:#2962ff !important ;
+
+}
+#top-menu .bg-light{
+    background-color: white !important;
+    }
+#top-menu .video-icon{
+    background-color:#2962ff;
+    color: white;
+    border-radius: 15%;
+    padding:2px;
+}
+.navbar .navbar-nav .nav-link:hover
+.navbar .navbar-nav .active>.nav-link{
+    color:white ;
+    background-color: #2962ff;
+}
+.navbar .login{
+    color: #2962ff;
+}
+.modal .modal-header .close:hover{
+    color:#2962ff !important;
+    background-color: transparent !important;
+}
+.card .card-icons{
+    position: relative;
+}
+
+time{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    color: white;
+    background-color: black;
+    padding: 0px 3px;
+}
+
+.card .fa-play {
+    position: absolute;
+    top:43%;
+    right: 41%;
+    color: black;
+    display: none;
+}
+
+.card .card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body{
+    min-width: 0;
+}
+/*
+.card .card-title{
+    height: 50px;
+    overflow: hidden;
+}
+*/
+
+
+
+.card:hover .fa-play {
+    display: inline;
+}
+.card:hover{
+   transform: translateY(-.9%);
+}
+.card:hover{
+    transition: transform .5s;
+ }
+#top-menu .fa-bars{
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left:6px;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 70px;
+    padding-top: 10px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .purple{
+ color: #2962ff;
+}
+.sidebar .list-group-item:hover{
+    color: white;
+    background-color: #2962ff;
+}
+.sidebar .list-group-item:hover .purple{
+    color: white;
+}
+.sidebar .list-group-item{
+    width: 17rem;
+}
+#wrap.toggled .sidebar{
+    right: 0rem;
+}
+.sidebar::-webkit-scrollbar{
+    background: rgb(230,230,230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background: rgb(179,179,179);
+    width: 8px;
+}
+.layer{
+    position: absolute;
+    height: 100vh;
+   width: 100%;
+   top: 0;
+   background-color: rgb(0,0,0,0.5);
+   z-index: 3;
+   display: none;
+
+}
+.navbar .search-icon{
+    color: #2962ff;
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 22px;
+    left: 132px;
+    display:none ;
+}
+.navbar .search-icon:hover{
+    color: white;
+    background-color: #2962ff;
+}
+.search-input{
+    position: fixed;
+    top: 80px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus{
+    background-color:#efeeee; 
+}
+.container-fluid{
+padding: 0px;
+overflow: hidden;
+}
+h4{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+@media(min-width:768px) and (max-width:1199px){
+    .card .card-horizontal .card-body .channel-img{
+        display: block;
+        margin-top: 10px;
+    }
+    .card .card-horizontal .card-body .channel-img>img{
+        margin-right:0px !important;
+    }
+
+
+}
+@media(max-width:1047px){
+    .navbar .collapse .form-inline{
+        display: none;
+    }
+    .navbar .search-icon{
+        display: inline;
+    }
+
+}
+    @media(min-width:1047px){
+        .search-input{
+            display: none !important;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

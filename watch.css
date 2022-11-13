@@ -1,0 +1,53 @@
+.card:hover{
+    transform: translateY(0%);
+}
+.watch-page .watch-icon{
+    position:absolute;
+    bottom: 5px;
+    right: 20px;
+}
+.watch-icon{
+    cursor: pointer;
+}
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.card-inner{
+    display: none;
+}
+time{
+    left: 24px !important;  
+}
+.watch-page .fa-play{
+    right: 46% !important;
+}
+@media(min-width:992px){
+    time{
+        font-size: 13px;
+    }
+    .fa-play{
+        font-size: 20px !important;
+    }
+}
+@media(max-width:1046px){
+#myBtn{
+    margin-bottom: 60px !important;
+}
+}
+@media(max-width:584){
+    .reply-time{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+

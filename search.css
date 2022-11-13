@@ -1,0 +1,55 @@
+#search-filter-icon{
+    cursor: pointer;
+}
+.search-header .filter-column{
+    display: none;
+}
+input:checked+span{
+    color: #2962ff;
+}
+time{
+    bottom: 10px;
+    left: 35px;
+}
+h4{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+@media(max-width:766px){
+    .card .card-top-image{
+        width: 100%;
+    }
+    .card .card-horizontal time{
+        left: 10px;
+    }
+    .card .card-horizontal .fa-play{
+        right: 48%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
